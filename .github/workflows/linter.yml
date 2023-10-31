@@ -2,7 +2,7 @@ name: linter
 on:
   workflow_dispatch: {}
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   linter:
