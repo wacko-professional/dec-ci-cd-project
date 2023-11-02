@@ -14,7 +14,7 @@ env:
   ECR_REPO_URI: 454151376729.dkr.ecr.ap-southeast-1.amazonaws.com/dev-my-repo
   #ECR_REPO_URI: <account-id>.dkr.ecr.<aws-region>.amazonaws.com/<repo-name>
   # Set this to the AWS role Github Actions will assume
-  AWS_ROLE_TO_ASSUME: arn:aws:iam::454151376729:role/github-ci-cd-role-dec
+  AWS_ROLE_TO_ASSUME: arn:aws:iam::454151376729:role/poweruser-github-ci-cd-iam-dec
 
 jobs:
   deploy_to_ecr:
