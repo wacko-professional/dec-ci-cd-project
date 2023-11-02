@@ -1,10 +1,8 @@
 name: linter
 on:
-  # Can be manually triggered
   workflow_dispatch: {}
-  # Triggered on each pull request to main
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   linter:
